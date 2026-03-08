@@ -1,0 +1,56 @@
+name: Update Video Feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    env:
+      SPIDER_TOPIC: viral video
+      SPIDER_SEED_URLS: https://www.reddit.com/r/videos/hot/.rss,https://www.youtube.com/feeds/videos.xml?user=YouTube
+      SCRAPY_FEED_URI: feeds/latest.json
+      SCRAPY_FEED_FORMAT: json
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scrapy shub
+          pip install -e .
+
+      - name: Run spider
+        run: scrapy crawl video_candidates
+
+      - name: Show output
+        run: |
+          ls -la feeds
+          python - <<'PY'
+          import json, pathlib
+          path = pathlib.Path('feeds/latest.json')
+          if not path.exists():
+              raise SystemExit('feeds/latest.json was not created')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          print(f'items={len(data)}')
+          PY
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feeds/latest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update latest video feed"
+          git push
