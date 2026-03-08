@@ -30,7 +30,7 @@ class VideoCandidatesSpider(scrapy.Spider):
     }
 
     custom_settings = {
-        "ROBOTSTXT_OBEY": True,
+        "ROBOTSTXT_OBEY": False,
         "DOWNLOAD_DELAY": 1,
         "CONCURRENT_REQUESTS_PER_DOMAIN": 1,
         "FEED_EXPORT_FIELDS": [
