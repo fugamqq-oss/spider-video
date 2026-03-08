@@ -16,9 +16,12 @@ jobs:
       SPIDER_SEED_URLS: https://www.reddit.com/r/videos/hot/.rss,https://www.youtube.com/feeds/videos.xml?user=YouTube
       SCRAPY_FEED_URI: feeds/latest.json
       SCRAPY_FEED_FORMAT: json
+      TARGET_BRANCH: main
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,6 +33,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install scrapy shub
           pip install -e .
+
+      - name: Sync latest branch
+        run: |
+          git fetch origin "$TARGET_BRANCH"
+          git checkout "$TARGET_BRANCH"
+          git pull --rebase origin "$TARGET_BRANCH"
 
       - name: Run spider
         run: scrapy crawl video_candidates
@@ -53,4 +62,5 @@ jobs:
           git add feeds/latest.json
           git diff --cached --quiet && exit 0
           git commit -m "Update latest video feed"
-          git push
+          git pull --rebase origin "$TARGET_BRANCH"
+          git push origin "$TARGET_BRANCH"
