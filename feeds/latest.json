@@ -1,5 +1,17 @@
 [
 {
+  "url": "https://www.youtube.com/shorts/oDX6LAnLHlA",
+  "platform": "youtube",
+  "title": "how’d you score on this kpop quiz?",
+  "summary": "",
+  "publishedAt": "2026-03-19T22:00:31+00:00",
+  "buzzScore": 10,
+  "saturationLevel": "medium",
+  "rationale": "Found in feed https://www.youtube.com/feeds/videos.xml?user=YouTube for topic \"viral video\".",
+  "sourcePage": "https://www.youtube.com/feeds/videos.xml?user=YouTube",
+  "topic": "viral video"
+},
+{
   "url": "https://www.youtube.com/shorts/sEHpY2OQ9_Y",
   "platform": "youtube",
   "title": "The ultimate shortcut from watching to making is here! 🎬 #sponsored",
@@ -161,18 +173,6 @@
   "title": "what's your comfort 90s movie?? 🤩 watch the Oscars® LIVE on ABC with YouTube TV. #Oscars",
   "summary": "",
   "publishedAt": "2026-03-16T01:46:56+00:00",
-  "buzzScore": 10,
-  "saturationLevel": "medium",
-  "rationale": "Found in feed https://www.youtube.com/feeds/videos.xml?user=YouTube for topic \"viral video\".",
-  "sourcePage": "https://www.youtube.com/feeds/videos.xml?user=YouTube",
-  "topic": "viral video"
-},
-{
-  "url": "https://www.youtube.com/shorts/t_Mk8jSZfPw",
-  "platform": "youtube",
-  "title": "congrats to @LegbootLegit and all his fav critters for their creator award!! #toad #bug",
-  "summary": "",
-  "publishedAt": "2026-03-15T19:00:31+00:00",
   "buzzScore": 10,
   "saturationLevel": "medium",
   "rationale": "Found in feed https://www.youtube.com/feeds/videos.xml?user=YouTube for topic \"viral video\".",
