@@ -1,5 +1,17 @@
 [
 {
+  "url": "https://www.youtube.com/watch?v=8aPXoaWkjWw",
+  "platform": "youtube",
+  "title": "@RickyLimon watched WHAT?! | Watch History",
+  "summary": "",
+  "publishedAt": "2026-03-25T15:58:21+00:00",
+  "buzzScore": 15,
+  "saturationLevel": "medium",
+  "rationale": "Found in feed https://www.youtube.com/feeds/videos.xml?user=YouTube for topic \"viral video\".",
+  "sourcePage": "https://www.youtube.com/feeds/videos.xml?user=YouTube",
+  "topic": "viral video"
+},
+{
   "url": "https://www.youtube.com/shorts/A0PnI8EgRJc",
   "platform": "youtube",
   "title": "not us making a fan edit…comment 🏊‍♂️ for a little surprise #BTS_ARIRANG #BTS_SWIM #KEEPSWIMMING",
@@ -168,18 +180,6 @@
   "topic": "viral video"
 },
 {
-  "url": "https://www.youtube.com/watch?v=v0lZEMOZxE4",
-  "platform": "youtube",
-  "title": "How K-pop fans took over YouTube (and the world) ft. @HelenPeng and @formoftherapy",
-  "summary": "",
-  "publishedAt": "2026-03-18T16:01:35+00:00",
-  "buzzScore": 11,
-  "saturationLevel": "medium",
-  "rationale": "Found in feed https://www.youtube.com/feeds/videos.xml?user=YouTube for topic \"viral video\".",
-  "sourcePage": "https://www.youtube.com/feeds/videos.xml?user=YouTube",
-  "topic": "viral video"
-},
-{
   "url": "https://www.reddit.com/r/videos/comments/1s3axkf/580_million_trades_the_most_corrupt_president_in/",
   "platform": "reddit",
   "title": "$580 million trades, the most corrupt president in the history of the USA",
@@ -228,6 +228,30 @@
   "topic": "viral video"
 },
 {
+  "url": "https://www.reddit.com/r/videos/comments/1s3ahv0/trump_says_iran_gave_the_us_a_very_significant/",
+  "platform": "reddit",
+  "title": "Trump Says Iran Gave the US 'A Very Significant Prize'",
+  "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/videos/comments/1s3ahv0/trump_says_iran_gave_the_us_a_very_significant/\"> <img src=\"https://external-preview.redd.it/1WST28NYUiKWfNIe55psyn4EWSeq5egLTtOSvMXGRqQ.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=8079d4de66f510ddb37850dc3d125b6282485252\" alt=\"Trump Says Iran Gave the US 'A Very Significant Prize'\" title=\"Trump Says Iran Gave the US 'A Very Significant Prize'\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/0The_Loner_Stoner0\"> /u/0The_Loner_Stoner0 </a> <br/> <span><a href=\"https://youtu.be/gYmjheJw038?si=ojhbMI8heUBMRAC5\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/videos/comments/1s3ahv0/trump_says_iran_gave_the_us_a_very_significant/\">[comments]</a></span> </td></tr></table>",
+  "publishedAt": "2026-03-25T13:18:13+00:00",
+  "buzzScore": 11,
+  "saturationLevel": "medium",
+  "rationale": "Found in feed https://www.reddit.com/r/videos/hot/.rss for topic \"viral video\".",
+  "sourcePage": "https://www.reddit.com/r/videos/hot/.rss",
+  "topic": "viral video"
+},
+{
+  "url": "https://www.reddit.com/r/videos/comments/1s3bvkf/president_trump_targets_new_york_times_over_iran/",
+  "platform": "reddit",
+  "title": "President Trump targets 'New York Times' over Iran War ...",
+  "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/videos/comments/1s3bvkf/president_trump_targets_new_york_times_over_iran/\"> <img src=\"https://external-preview.redd.it/hgHE0giNDXtdbULxiPq36w3j3BgA9DBjEWiMUmtcTTo.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=92f1b378c12bf2ef9a62d42d30bc3fad802fd1c2\" alt=\"President Trump targets 'New York Times' over Iran War ...\" title=\"President Trump targets 'New York Times' over Iran War ...\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MoralLogs\"> /u/MoralLogs </a> <br/> <span><a href=\"https://youtube.com/shorts/XOA0V_3Co9o?si=hj9yAiuN7iGmSFFE\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/videos/comments/1s3bvkf/president_trump_targets_new_york_times_over_iran/\">[comments]</a></span> </td></tr></table>",
+  "publishedAt": "2026-03-25T14:11:37+00:00",
+  "buzzScore": 11,
+  "saturationLevel": "medium",
+  "rationale": "Found in feed https://www.reddit.com/r/videos/hot/.rss for topic \"viral video\".",
+  "sourcePage": "https://www.reddit.com/r/videos/hot/.rss",
+  "topic": "viral video"
+},
+{
   "url": "https://www.reddit.com/r/videos/comments/1s2tbad/trump_complains_about_mail_in_ballots_while/",
   "platform": "reddit",
   "title": "Trump complains about mail in ballots while voting by mail himself.",
@@ -264,35 +288,11 @@
   "topic": "viral video"
 },
 {
-  "url": "https://www.reddit.com/r/videos/comments/1s3ahv0/trump_says_iran_gave_the_us_a_very_significant/",
-  "platform": "reddit",
-  "title": "Trump Says Iran Gave the US 'A Very Significant Prize'",
-  "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/videos/comments/1s3ahv0/trump_says_iran_gave_the_us_a_very_significant/\"> <img src=\"https://external-preview.redd.it/1WST28NYUiKWfNIe55psyn4EWSeq5egLTtOSvMXGRqQ.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=8079d4de66f510ddb37850dc3d125b6282485252\" alt=\"Trump Says Iran Gave the US 'A Very Significant Prize'\" title=\"Trump Says Iran Gave the US 'A Very Significant Prize'\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/0The_Loner_Stoner0\"> /u/0The_Loner_Stoner0 </a> <br/> <span><a href=\"https://youtu.be/gYmjheJw038?si=ojhbMI8heUBMRAC5\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/videos/comments/1s3ahv0/trump_says_iran_gave_the_us_a_very_significant/\">[comments]</a></span> </td></tr></table>",
-  "publishedAt": "2026-03-25T13:18:13+00:00",
-  "buzzScore": 11,
-  "saturationLevel": "medium",
-  "rationale": "Found in feed https://www.reddit.com/r/videos/hot/.rss for topic \"viral video\".",
-  "sourcePage": "https://www.reddit.com/r/videos/hot/.rss",
-  "topic": "viral video"
-},
-{
   "url": "https://www.reddit.com/r/videos/comments/1s2h5s7/archive_obama_announces_historic_iran_nuclear/",
   "platform": "reddit",
   "title": "ARCHIVE: Obama Announces Historic Iran Nuclear Deal | July 14, 2015 | APT",
   "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/videos/comments/1s2h5s7/archive_obama_announces_historic_iran_nuclear/\"> <img src=\"https://external-preview.redd.it/N2OoLRB-BIyqp6xLSShneGeoDScUXZe9JwAmcr4r6Y4.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=c7c9ce7353487251309b446ee387381eb4c9c04b\" alt=\"ARCHIVE: Obama Announces Historic Iran Nuclear Deal | July 14, 2015 | APT\" title=\"ARCHIVE: Obama Announces Historic Iran Nuclear Deal | July 14, 2015 | APT\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Yujin-Ha\"> /u/Yujin-Ha </a> <br/> <span><a href=\"https://youtu.be/mNX3uPUZZrc?si=eQb-gxWj7SzgtpRN\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/videos/comments/1s2h5s7/archive_obama_announces_historic_iran_nuclear/\">[comments]</a></span> </td></tr></table>",
   "publishedAt": "2026-03-24T15:34:59+00:00",
-  "buzzScore": 11,
-  "saturationLevel": "medium",
-  "rationale": "Found in feed https://www.reddit.com/r/videos/hot/.rss for topic \"viral video\".",
-  "sourcePage": "https://www.reddit.com/r/videos/hot/.rss",
-  "topic": "viral video"
-},
-{
-  "url": "https://www.reddit.com/r/videos/comments/1s2kjtk/philippines_has_45_days_of_fuel_left_declaring/",
-  "platform": "reddit",
-  "title": "Philippines has '45 days of fuel left', declaring state of emergency from Iran war",
-  "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/videos/comments/1s2kjtk/philippines_has_45_days_of_fuel_left_declaring/\"> <img src=\"https://external-preview.redd.it/Tn2lWxjqqj_uR0tLMN6CZS4hXAA2YU4Q87uA6_rBALU.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=bbeb28acf1a9390b621ea8d023f9e0fe4934204f\" alt=\"Philippines has '45 days of fuel left', declaring state of emergency from Iran war\" title=\"Philippines has '45 days of fuel left', declaring state of emergency from Iran war\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Cy_098\"> /u/Cy_098 </a> <br/> <span><a href=\"https://youtu.be/VavXBDH7N0w?si=OfwrydgTnPXyoKKQ\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/videos/comments/1s2kjtk/philippines_has_45_days_of_fuel_left_declaring/\">[comments]</a></span> </td></tr></table>",
-  "publishedAt": "2026-03-24T17:34:39+00:00",
   "buzzScore": 11,
   "saturationLevel": "medium",
   "rationale": "Found in feed https://www.reddit.com/r/videos/hot/.rss for topic \"viral video\".",
